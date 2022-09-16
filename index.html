@@ -10,20 +10,26 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Resumo</a></li>
-                <li><a href="#">Meus hobbies</a></li>
-                <li><a href="#">Meus projetos</a></li>
-                <li><a href="#">Contato</a></li>
+        <nav class="nav">
+            <button class="menu" data-menu="btn">Menu</button>
+            <ul class="lista" data-menu="lista">
+                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#hobbies">Meus hobbies</a></li>
+                <li><a href="#projetos">Meus projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="resumo"></section>
-        <section class="hobbies"></section>
-        <section class="projetos">
+        <section id="resumo">
+            <h1 class="titulo">Quem sou eu?</h1>
+        </section>
+        <section id="hobbies">
+            <h1 class="titulo">Hobbies</h1>
+        </section>
+        <section id="projetos">
+            <h1 class="titulo">Projetos</h1>
             <div>
                 <img src="" alt="">
                 <p></p>
@@ -37,7 +43,8 @@
                 <p></p>
             </div>
         </section>
-        <section class="contato">
+        <section id="contato">
+            <h1 class="titulo">Contato</h1>
             <form>
                 <label for="nome">Escreva seu nome</label>
                 <input name="nome" type="text">
