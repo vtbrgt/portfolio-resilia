@@ -3,3 +3,12 @@
     margin: 0;
     padding: 0;
 }
+
+section {
+    border-top: 1px solid black;
+    border-radius: 25%;
+}
+
+.titulo {
+    position: relative; /* posicionar o título das sections acima da borda */
+}
