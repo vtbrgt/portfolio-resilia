@@ -16,6 +16,20 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 18px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--roxo-claro);
+  border-left: 4px solid #f0f0f0;
+  border-right: 4px solid #f0f0f0;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
 .nav {
   /* From https://css.glass */
   background: rgba(0, 0, 0, 0.502);
