@@ -9,6 +9,7 @@
 body {
   background-color: #f0f0f0;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .nav {
@@ -22,13 +23,13 @@ body {
   height: 3rem;
   display: flex;
   align-items: center;
-  color: #dfdfdf;
+  color: #54447b;
 }
 
 .menu {
   text-align: center;
-  border: 2px solid #dfdfdf;
-  background-color: #292929;
+  border: 2px solid #54447b;
+  background-color: #9580cd;
   border-radius: 4px;
   margin: 0.875rem 0 0.875rem 0.875rem;
   padding: 0.2rem 0.5rem;
@@ -54,7 +55,7 @@ section::after {
   display: block;
   width: 90%;
   height: 2px;
-  background-color: #b4b4b4;
+  background-color: #54447b;
 }
 
 .titulo {
@@ -70,7 +71,7 @@ section::after {
 }
 
 .textos p {
-  border-left: 4px solid #b4b4b4;
+  border-left: 4px solid #54447b;
   padding-left: 0.5rem;
 }
 
