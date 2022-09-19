@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
 
+:root {
+  --roxo-escuro: #54447b;
+  --roxo-claro: #9580cd;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +14,6 @@
 body {
   background-color: #f0f0f0;
   font-family: 'Montserrat', sans-serif;
-  scroll-behavior: smooth;
 }
 
 .nav {
@@ -28,11 +32,15 @@ body {
 
 .menu {
   text-align: center;
-  border: 2px solid #54447b;
-  background-color: #9580cd;
+  border: 2px solid var(--roxo-escuro);
+  background-color: var(--roxo-claro);
   border-radius: 4px;
   margin: 0.875rem 0 0.875rem 0.875rem;
   padding: 0.2rem 0.5rem;
+}
+
+.menu:hover {
+  cursor: pointer;
 }
 
 .lista {
@@ -55,13 +63,13 @@ section::after {
   display: block;
   width: 90%;
   height: 2px;
-  background-color: #54447b;
+  background-color: var(--roxo-escuro);
 }
 
-.titulo {
-  position: relative; /* posicionar o título das sections acima da borda */
-  /* top: -22px; */
-}
+/* .titulo {
+  position: relative; 
+  top: -22px;
+} */
 
 .textos {
   display: flex;
@@ -71,7 +79,7 @@ section::after {
 }
 
 .textos p {
-  border-left: 4px solid #54447b;
+  border-left: 4px solid var(--roxo-escuro);
   padding-left: 0.5rem;
 }
 
