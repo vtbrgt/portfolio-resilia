@@ -32,7 +32,7 @@ body::-webkit-scrollbar-track {
 
 .nav {
   /* From https://css.glass */
-  background: rgba(0, 0, 0, 0.502);
+  background: rgba(0, 0, 0, 0.225);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -164,7 +164,32 @@ form button {
   border: 2px solid var(--roxo-escuro);
   background-color: var(--roxo-claro);
   border-radius: 4px;
-  margin: 0 0 0.875rem 0.875rem;
   padding: 0.2rem 0.5rem;
   font-weight: bold;
+}
+
+.rodape {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.225);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
+  height: 4.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #54447b;
+  font-weight: bold;
+}
+
+.rodape p {
+  margin: 0.75rem 0;
+}
+
+.social img {
+  width: 25px;
+  height: 25px;
+  margin-right: 0.75rem;
 }
