@@ -45,7 +45,7 @@ body::-webkit-scrollbar-track {
   height: 3rem;
   display: flex;
   align-items: center;
-  color: #54447b;
+  color: var(--roxo-escuro);
 }
 
 .menu {
@@ -174,7 +174,7 @@ form input:focus-visible {
 
 form button {
   all: unset;
-  color: #54447b;
+  color: var(--roxo-escuro);
   border: 2px solid var(--roxo-escuro);
   background-color: var(--roxo-claro);
   border-radius: 4px;
@@ -198,7 +198,7 @@ form button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #54447b;
+  color: var(--roxo-escuro);
   font-weight: bold;
 }
 
