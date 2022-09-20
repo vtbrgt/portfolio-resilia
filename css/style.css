@@ -132,4 +132,10 @@ section::after {
   width: 50%;
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 2%;
+  transition: filter 1s;
+}
+
+.img-preview:hover {
+  filter: grayscale();
 }
