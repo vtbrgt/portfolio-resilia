@@ -128,6 +128,10 @@ section::after {
   text-align: center;
 }
 
+.component a {
+  color: var(--roxo-claro);
+}
+
 .img-preview {
   width: 50%;
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
@@ -138,4 +142,29 @@ section::after {
 
 .img-preview:hover {
   filter: grayscale();
+}
+
+form {
+  width: 80vw;
+}
+
+form input {
+  margin-bottom: 0.875rem;
+  border: 1px solid;
+  border-radius: 2%;
+}
+
+form input:focus-visible {
+  outline-color: var(--roxo-claro);
+}
+
+form button {
+  all: unset;
+  color: #54447b;
+  border: 2px solid var(--roxo-escuro);
+  background-color: var(--roxo-claro);
+  border-radius: 4px;
+  margin: 0 0 0.875rem 0.875rem;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
 }
