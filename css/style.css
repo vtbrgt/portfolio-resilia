@@ -85,6 +85,10 @@ section::after {
   margin-top: 1rem;
 }
 
+#resumo {
+  padding-top: 2.5rem;
+}
+
 .titulo {
   text-align: center;
   margin-bottom: 1.75rem;
