@@ -212,6 +212,13 @@ form button:hover {
   margin-right: 0.75rem;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+}
+
 @media (min-width: 769px) {
   .nav {
     height: 4rem;
