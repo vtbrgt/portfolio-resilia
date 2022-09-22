@@ -192,13 +192,15 @@ form {
   width: 80vw;
 }
 
-form input {
+form input,
+form textarea {
   margin-bottom: 0.875rem;
   border: 1px solid;
   border-radius: 2%;
 }
 
-form input:focus-visible {
+form input:focus-visible,
+form textarea:focus-visible {
   outline-color: var(--roxo-claro);
 }
 
