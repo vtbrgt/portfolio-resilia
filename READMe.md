@@ -15,5 +15,6 @@ HTML, CSS e JavaScript
 ### Referência
 
 [UX portfolio template para Notion](https://twitter.com/semigrownkid/status/1566596533629370371?s=20&t=vGpdRz11UUzbB4IBc_XnWg)
+<img src="./images/ref.jpg" alt="Referência" width="600"/>
 
 🚨**Projeto Finalizado**🚨
